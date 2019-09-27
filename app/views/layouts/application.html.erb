@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hiptime</title>
+    <title>Avviso</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
@@ -15,7 +13,7 @@
   <nav class="navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
-        <%= link_to "Hiptime", root_path, class:"navbar-brand" %>
+        <%= link_to "Avviso", root_path, class:"navbar-brand" %>
       </div>
       <ul class="nav navbar-nav navbar-right">
         <% if current_user.present? %>
